@@ -91,4 +91,29 @@ color: white;}
     flex-direction: row;
 justify-content: left;
 align-items: left;
+padding-bottom: 70px;
 }
+
+.cinza {padding: 50px;
+    background-color: #333333;
+    max-width: 420px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+color: white;}
+
+.cinzaclaro {padding: 50px;
+    background-color: #aaaaaa;
+    max-width: 420px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+color: black;}
+
+.empresas {padding-top: 50px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+align-items: center;
+    max-width: 400px;
+    font-family: 'Inter', sans-serif;
+color: white;}
