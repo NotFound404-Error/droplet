@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {background-color: #111111;}
+
+.botao {
+    background-color: #111111;
+    border: none;
+    color: #DF00A1;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #DF00A1;
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+.botao:hover {background-color: #DF00A1;
+color: white;}
+
+.cabecalho {
+    padding: 20px;
+    background-color: #111111;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+.texto { margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+justify-content: left;
+align-items: left;
+    max-width: 500px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+color: white;}
+
+.rosatexto {font-size: 20px;
+    color: #DF00A1;}
+
+    .botaodois {
+        background-color: #DF00A1;
+        border: none;
+        color: white;
+        padding: 10px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border: 2px solid #DF00A1;
+        border-radius: 10px;
+        max-width: 200px;
+    }
+
+.rodape { padding: 50px;
+    font-family: 'Inter', sans-serif;
+    color: white;}
+
+    .copy {font-size: 15px;
+        color: gray;}
+
+
+.fotoum {padding-top: 70px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+justify-content: left;
+align-items: left;
+    max-width: 200px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+color: white;}
+
+.fotodois {padding-top: 70px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+justify-content: left;
+align-items: left;
+    max-width: 200px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+color: white;}
+
+.colunas {
+    display: flex;
+    flex-direction: row;
+justify-content: left;
+align-items: left;
+}
